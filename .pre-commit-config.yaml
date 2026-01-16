@@ -18,6 +18,6 @@ repos:
     hooks:
       - id: commit-message
         name: Commit Message Prefix
-        entry: bash hooks/commit-msg
-        language: system
+        entry: python hooks/commit_msg.py
+        language: python
         stages: [commit-msg]
