@@ -13,3 +13,11 @@ repos:
     rev: v0.4.4
     hooks:
       - id: ruff
+
+  - repo: local
+    hooks:
+      - id: commit-message
+        name: Commit Message Prefix
+        entry: bash hooks/commit-msg
+        language: system
+        stages: [commit-msg]
