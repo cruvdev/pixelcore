@@ -48,6 +48,7 @@ jobs:
             git push origin "v$VERSION"
           else
             echo "Tag v$VERSION already exists."
+          fi
 
       # 6. Build distributions
       - name: Build package
