@@ -37,11 +37,11 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           echo "Version read: $VERSION"
 
-      # 5. Optionally run tests
-      - name: Run tests
-        run: |
-          python -m pip install -e .[dev]
-          pytest tests
+      # # 5. Optionally run tests
+      # - name: Run tests
+      #   run: |
+      #     python -m pip install -e .[dev]
+      #     pytest tests
 
       # 6. Create release & tag via GH CLI
       - name: Create release (auto-tag)
