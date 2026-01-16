@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pixelcore"
-version = "0.0.2"
+version = "0.0.3"
 description = "Core image and video processing primitives"
 readme = "README.md"
 requires-python = ">=3.9"
